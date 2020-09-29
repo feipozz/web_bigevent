@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>大事件-登录</title>
+    <title>大事件-登录/注册</title>
     <link rel="stylesheet" href="./assets/css/login.css" />
     <link rel="stylesheet" href="./assets/lib/layui/css/layui.css" />
   </head>
@@ -19,7 +19,7 @@
       <!-- 登录 div-->
       <div class="login-box">
         <!-- 登录的表单 -->
-        <form class="layui-form" action="">
+        <form class="layui-form" id="form_login">
           <!-- 用户名 -->
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-username"></i> 
@@ -126,6 +126,9 @@
     <script src="/assets/lib/layui/layui.all.js"></script>
     <!-- 导入jquery -->
     <script src="/assets/lib/jquery.js"></script>
+    <!-- 导入自己封装的 baseApi.js -->
+    <script src="./assets/js/baseApi.js"></script>
+
     <!-- 导入自己的JavaScript -->
     <script src="/assets/js/login.js"></script>
   </body>
